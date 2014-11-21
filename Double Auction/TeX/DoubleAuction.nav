@@ -1,0 +1,69 @@
+\beamer@endinputifotherversion {3.27pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\sectionentry {1}{シングルオークションとは}{3}{シングルオークションとは}{0}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{夏合宿の復習}}\headcommand {\beamer@subsectionpages {3}{2}}
+\headcommand {\slideentry {1}{1}{1}{3/3}{夏合宿の復習}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\sectionentry {2}{ダブルオークションとは}{4}{ダブルオークションとは}{0}}
+\headcommand {\beamer@sectionpages {3}{3}}
+\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{4}{ダブルオークション概要}}\headcommand {\beamer@subsectionpages {4}{3}}
+\headcommand {\slideentry {2}{1}{1}{4/6}{ダブルオークション概要}{0}}
+\headcommand {\beamer@framepages {4}{6}}
+\headcommand {\slideentry {2}{1}{2}{7/7}{ダブルオークション概要}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {2}{1}{3}{8/8}{ダブルオークション概要}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {2}{1}{4}{9/9}{ダブルオークション概要}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {2}{1}{5}{10/10}{ダブルオークション概要}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{11}{チェンバリン実験}}\headcommand {\beamer@subsectionpages {4}{10}}
+\headcommand {\slideentry {2}{2}{1}{11/13}{チェンバリン実験}{0}}
+\headcommand {\beamer@framepages {11}{13}}
+\headcommand {\slideentry {2}{2}{2}{14/17}{チェンバリン実験}{0}}
+\headcommand {\beamer@framepages {14}{17}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{18}{スミス実験}}\headcommand {\beamer@subsectionpages {11}{17}}
+\headcommand {\slideentry {2}{3}{1}{18/23}{スミス実験}{0}}
+\headcommand {\beamer@framepages {18}{23}}
+\headcommand {\slideentry {2}{3}{2}{24/28}{スミス実験}{0}}
+\headcommand {\beamer@framepages {24}{28}}
+\headcommand {\slideentry {2}{3}{3}{29/31}{スミス実験}{0}}
+\headcommand {\beamer@framepages {29}{31}}
+\headcommand {\sectionentry {3}{Pythonコード}{32}{Pythonコード}{0}}
+\headcommand {\beamer@sectionpages {4}{31}}
+\headcommand {\beamer@subsectionpages {18}{31}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{32}{willow復習}}\headcommand {\beamer@subsectionpages {32}{31}}
+\headcommand {\slideentry {3}{1}{1}{32/32}{willow復習}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{33}{willow復習}}\headcommand {\beamer@subsectionpages {32}{32}}
+\headcommand {\slideentry {3}{2}{1}{33/33}{willow復習}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{34}{実験開始}}\headcommand {\beamer@subsectionpages {33}{33}}
+\headcommand {\slideentry {3}{3}{1}{34/34}{実験開始}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{35}{コード説明}}\headcommand {\beamer@subsectionpages {34}{34}}
+\headcommand {\slideentry {3}{4}{1}{35/35}{コード説明}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\sectionentry {4}{まとめ}{36}{まとめ}{0}}
+\headcommand {\beamer@sectionpages {32}{35}}
+\headcommand {\beamer@subsectionpages {35}{35}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{36}{今後の課題}}\headcommand {\beamer@subsectionpages {36}{35}}
+\headcommand {\slideentry {4}{1}{1}{36/37}{今後の課題}{0}}
+\headcommand {\beamer@framepages {36}{37}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{38}{次回発表案(仮)}}\headcommand {\beamer@subsectionpages {36}{37}}
+\headcommand {\slideentry {4}{2}{1}{38/41}{次回発表案(仮)}{0}}
+\headcommand {\beamer@framepages {38}{41}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{42}{参考文献}}\headcommand {\beamer@subsectionpages {38}{41}}
+\headcommand {\slideentry {4}{3}{1}{42/42}{参考文献}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\beamer@partpages {1}{42}}
+\headcommand {\beamer@subsectionpages {42}{42}}
+\headcommand {\beamer@sectionpages {36}{42}}
+\headcommand {\beamer@documentpages {42}}
+\headcommand {\def \inserttotalframenumber {20}}

@@ -1,0 +1,18 @@
+\frametitle{コードの説明とか}
+\begin{itemize}\setlength{\parskip}{0.5em}
+\item
+コードの表示の例
+\begin{verbatim}
+import numpy
+from matplotlib import pyplot
+
+x = numpy.arange(0, 10, 0.1)
+y = numpy.cos(x)
+pyplot.plot(x,y)
+pyplot.show()
+\end{verbatim}
+
+\item
+\verb|\begin{frame}| から \verb|\end{frame}| までを
+コピー\&ペーストしてスライドを増やしていく．
+\end{itemize}
