@@ -6,6 +6,7 @@ Double Auction
 =======
 ダブルオークションのプログラムが書けました。  
 少しまだ実験説明画面において日本語が下手くそな部分がちらほら見かけられますが、だいたい動きます。  
+[11/17ダブルオークション発表資料](https://docs.google.com/viewer?url=https://github.com/yoshimasaogawa/Auction/DoubleAuction/blob/master/DoubleAuction.pdf?raw=true)
 
 Wifunc
 =======
