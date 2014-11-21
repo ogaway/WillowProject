@@ -1,0 +1,49 @@
+<h1>ダブルオークション　モニター</h1>
+
+<div id='setting'>
+  <h2>
+    初期設定
+  </h2>
+  <p id='numset'>
+    参加人数を入力してください。<br />
+    <input class='num' id='plnum' type='text' />
+    <input id='go' type='submit'>
+  </p>
+  <p class='hidden' id='numsetcomp'>
+    実験人数：<span id='num'></span>人
+  </p>
+  <p class='hidden' id='priceset'>
+    私的価値を入力してください。<br />
+    買い手<br />
+    <span id='buypr'></span>
+    売り手<br />
+    <span id='sellpr'></span>
+    <input id='go' type='submit'>
+  </p>
+  <p class='hidden' id='pricesetcomp'>
+    買い手<br />
+    <span id='prbuy'></span><br />
+    売り手<br />
+    <span id='prsell'></span>
+  </p>
+</div>
+
+<div class='hidden' id='auction'>
+  <h2>
+    オークション画面
+  </h2>
+  <h3>
+    板情報
+  </h3>
+  <p>
+    現在の買値<br /><span id="buyprice">(入札なし)</span>円<br />
+    (被験者No.<span id="buynum">(入札なし)</span>による入札)<br /><br />
+    現在の売値<br /><span id="sellprice">(入札なし)</span>円<br />
+    (被験者No.<span id="sellnum">(入札なし)</span>による入札)<br /><br />
+  </p>
+  <h3>
+    お知らせ
+  </h3>
+  <p id='info'>
+  </p>
+</div>
