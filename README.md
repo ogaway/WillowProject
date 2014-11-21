@@ -1,7 +1,3 @@
-Auction
-=======
-Auction Programming Code by using Willow
-
 Double Auction
 =======
 [11/17ダブルオークション発表資料](https://docs.google.com/viewer?url=https://github.com/yoshimasaogawa/Auction/blob/master/Double%20Auction/DoubleAuction.pdf?raw=true)  
@@ -11,9 +7,9 @@ Double Auction
 Wifunc
 =======
 Wifunc.py(ワイファンク)というファイルに汎用性の高そうなコードを関数化してまとめました。  
-これをはじめにimportすればコードがより一層楽に書けるようになる予定です。  
+これをimportしておけばコードがより一層楽に書けるようになる予定です。  
 今のところ、初期設定における人数、価格の決定などを関数化してあります。  
-wifunc.pyncという付属でついてくるファイルいついてはよく分かりませんが勝手に生成されました。  
+wifunc.pycという付属でついてくるファイルいついてはよく分かりませんが勝手に生成されました。  
 
 Auctions For Complements
 =======
