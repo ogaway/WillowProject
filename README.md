@@ -4,7 +4,7 @@ Auction Programming Code by using Willow
 
 Double Auction
 =======
-[11/17ダブルオークション発表資料](https://docs.google.com/viewer?url=https://github.com/yoshimasaogawa/Auction/blob/master/Double%20Auction/DoubleAuction.pdf?raw=true)
+[11/17ダブルオークション発表資料](https://docs.google.com/viewer?url=https://github.com/yoshimasaogawa/Auction/blob/master/Double%20Auction/DoubleAuction.pdf?raw=true)  
 ダブルオークションのプログラムが書けました。  
 少しまだ実験説明画面において日本語が下手くそな部分がちらほら見かけられますが、だいたい動きます。  
 
