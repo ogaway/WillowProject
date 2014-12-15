@@ -1,0 +1,12 @@
+\beamer@endinputifotherversion {3.27pt}
+\beamer@sectionintoc {1}{前回の復習}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{シングルオークション}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{ダブルオークション}{4}{0}{1}
+\beamer@sectionintoc {2}{複数財オークション}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{複数財オークションとは}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Let's 実験}{8}{0}{2}
+\beamer@subsectionintoc {2}{4}{実験デザイン比較}{35}{0}{2}
+\beamer@sectionintoc {3}{まとめ}{42}{0}{3}
+\beamer@subsectionintoc {3}{1}{結論}{42}{0}{3}
+\beamer@subsectionintoc {3}{2}{今後の課題}{47}{0}{3}
+\beamer@subsectionintoc {3}{3}{参考文献}{50}{0}{3}
