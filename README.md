@@ -1,8 +1,16 @@
-Double Auction
+Auction
 =======
+Double Auction
+-------
 [11/17ダブルオークション発表資料](https://docs.google.com/viewer?url=https://github.com/yoshimasaogawa/Auction/blob/master/Double%20Auction/DoubleAuction.pdf?raw=true)  
 ダブルオークションのプログラムが書けました。  
 少しまだ実験説明画面において日本語が下手くそな部分がちらほら見かけられますが、だいたい動きます。  
+Auctions For Complements
+-------
+複数材オークションのプログラムが書けました。
+この論文を参考にしました。(http://www.cirje.e.u-tokyo.ac.jp/research/workshops/micro/micropaper14/micro1021.pdf)  
+[12/15複数財オークション発表資料](https://docs.google.com/viewer?url=https://github.com/yoshimasaogawa/Auction/blob/master/Double%20Auction/DoubleAuction.pdf?raw=true)  
+当日はエンコードの仕様の違いやコードミスによりプログラムが上手く動きませんでした。発表するはずだった資料を置いておきます。当日の発表で何をやっているかよく分からなかった人は参考にしていただければ幸いです。
 
 Wifunc
 =======
@@ -11,7 +19,8 @@ Wifunc.py(ワイファンク)というファイルに汎用性の高そうなコ
 今のところ、初期設定における人数、価格の決定などを関数化してあります。  
 wifunc.pycという付属でついてくるファイルいついてはよく分かりませんが勝手に生成されました。  
 
-Auctions For Complements
+次回に向けて
 =======
-現在、複数材オークションに関する論文を読み込み中です。(http://www.cirje.e.u-tokyo.ac.jp/research/workshops/micro/micropaper14/micro1021.pdf)  
-次回の発表においてはこれに関する実験も行えるよう頑張ります。
+・エージェントをコード内に組み込む。
+・pandasでデータ分析プログラムを作る。
+・Willowの使い方が一目で分かる模範コードを書く。
