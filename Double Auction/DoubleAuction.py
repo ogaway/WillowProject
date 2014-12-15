@@ -49,7 +49,7 @@ def session(me):
             group.append(i+1)
         counter = 0
         while True:
-            if len(group) <= 1:
+            if len(group) == 0:
                 add("実験を終了します。<br />", "#info")
                 for i in range(plnum):
                     put({"tag": "tc1", "if": 1})
@@ -67,15 +67,27 @@ def session(me):
                 for i in range(plnum):
                     put({"tag": "tc2", "type": msg["type"], "price": msg["price"], "bidder": msg["client"]})
                 if msg["type"] == "buy":
+                    group.append(buynum)
+                    if 0 in group:
+                        a = group.index(0)
+                        group.pop(a)
                     buyprice = int(msg["price"])
                     buynum = client
+                    a = group.index(buynum)
+                    group.pop(a)
                     let(buyprice, "#buyprice")
                     let(buynum, "#buynum")
                     add("クライアント%sが%s円で買値を提示しました。<br />"
                      % (client, msg["price"]), "#info")
                 if msg["type"] == "sell":
+                    group.append(sellnum)
+                    if 0 in group:
+                        a = group.index(0)
+                        group.pop(a)
                     sellprice = int(msg["price"])
                     sellnum = client
+                    a = group.index(sellnum)
+                    group.pop(a)
                     let(sellprice, "#sellprice")
                     let(sellnum, "#sellnum")
                     add("クライアント%sが%s円で売値を提示しました。<br />"
@@ -152,7 +164,7 @@ def session(me):
 
             # 取引者がいなくなったらループから出る
             if msg["if"] == 1:
-                add("取引に残った人が１人以下となったので実験を終了します。<br />", "#info")
+                add("取引が成立しなくなったので実験を終了します。<br />", "#info")
                 break
 
             # step1　ランダムに当てて価格を聞く
