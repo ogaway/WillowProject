@@ -1,4 +1,4 @@
-Auction
+WillowProject
 =======
 Double Auction
 -------
