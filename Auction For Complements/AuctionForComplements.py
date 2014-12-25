@@ -57,15 +57,15 @@ def session(me):
             add("タイプ%s被験者No.%sが%s円の入札を行いました。<br />" % (msg["type"], msg["client"], msg["price"]))
             log(pricemechanism, msg["type"], msg["price"])
             if msg["type"] == "i1":
-                if msg["price"] > i1bid:
+                if int(msg["price"]) > i1bid:
                     i1bid = int(msg["price"])
                     i1num = int(msg["client"])
             elif msg["type"] == "i2":
-                if msg["price"] > i2bid:
+                if int(msg["price"]) > i2bid:
                     i2bid = int(msg["price"])
                     i2num = int(msg["client"])
             elif msg["type"] == "j":
-                if msg["price"] > jbid:
+                if int(msg["price"]) > jbid:
                     jbid = int(msg["price"])
                     jnum = int(msg["client"])
         # 0 : The First Price Auction
