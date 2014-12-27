@@ -15,7 +15,8 @@ Auctions For Complements
 
 Public Goods Game
 -------
-公共財供給ゲームのサンプルコードを書きました。  
+[公共財供給ゲーム](https://github.com/yoshimasaogawa/WillowProject/tree/master/Public%20Goods%20Game)  
+サンプルコードが仕上がりました。  
 後々コード上にコメントも残そうと思います。wifuncで定めた関数も多用してコード簡略化につとめました。  
 一目見たらwillowの使い方がわかるコードって結構難しいですね...
 
