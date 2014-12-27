@@ -1,26 +1,25 @@
 WillowProject
 =======
-Double Auction
+[Double Auction](https://github.com/yoshimasaogawa/WillowProject/tree/master/DoubleAuction)
 -------
 [11/17ダブルオークション発表資料](https://docs.google.com/viewer?url=https://github.com/yoshimasaogawa/Auction/blob/master/Double%20Auction/DoubleAuction.pdf?raw=true)  
 ダブルオークションのプログラムが書けました。  
 少しまだ実験説明画面において日本語が下手くそな部分がちらほら見かけられますが、だいたい動きます。  
 
-Auctions For Complements
+[Auctions For Complements](https://github.com/yoshimasaogawa/WillowProject/tree/master/AuctionForComplements)
 -------
 複数材オークションのプログラムが書けました。
 この論文を参考にしました。(http://www.cirje.e.u-tokyo.ac.jp/research/workshops/micro/micropaper14/micro1021.pdf)  
 [12/15複数財オークション発表資料](https://docs.google.com/viewer?url=https://github.com/yoshimasaogawa/Auction/blob/master/Auction%20For%20Complements/Auction%20for%20complements.pdf?raw=true)  
 当日はエンコードの仕様の違いやコードミスによりプログラムが上手く動きませんでした。発表するはずだった資料を置いておきます。当日の発表で何をやっているかよく分からなかった人は参考にしていただければ幸いです。
 
-Public Goods Game
+[Public Goods Game](https://github.com/yoshimasaogawa/WillowProject/tree/master/PublicGoodsGame)
 -------
-[公共財供給ゲーム](https://github.com/yoshimasaogawa/WillowProject/tree/master/Public%20Goods%20Game)  
 サンプルコードが仕上がりました。  
 後々コード上にコメントも残そうと思います。wifuncで定めた関数も多用してコード簡略化につとめました。  
 一目見たらwillowの使い方がわかるコードって結構難しいですね...
 
-Wifunc
+[Wifunc](https://github.com/yoshimasaogawa/WillowProject/tree/master/Wifunc)
 -------
 Wifunc.py(ワイファンク)というファイルに汎用性の高そうなコードを関数化してまとめました。  
 これをimportしておけばコードがより一層楽に書けるようになる予定です。  
