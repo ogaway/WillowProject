@@ -9,7 +9,7 @@ WillowProject
 [Auctions For Complements](https://github.com/yoshimasaogawa/WillowProject/tree/master/AuctionForComplements)
 -------
 複数材オークションのプログラムが書けました。
-この論文を参考にしました。(http://www.cirje.e.u-tokyo.ac.jp/research/workshops/micro/micropaper14/micro1021.pdf)  
+[この論文](http://www.cirje.e.u-tokyo.ac.jp/research/workshops/micro/micropaper14/micro1021.pdf)を参考にしました。  
 [12/15複数財オークション発表資料](https://docs.google.com/viewer?url=https://github.com/yoshimasaogawa/Auction/blob/master/Auction%20For%20Complements/Auction%20for%20complements.pdf?raw=true)  
 当日はエンコードの仕様の違いやコードミスによりプログラムが上手く動きませんでした。発表するはずだった資料を置いておきます。当日の発表で何をやっているかよく分からなかった人は参考にしていただければ幸いです。
 
