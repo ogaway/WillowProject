@@ -3,6 +3,7 @@ WillowProject
 * [Double Auction](https://github.com/yoshimasaogawa/WillowProject/tree/master/DoubleAuction)
 * [Auctions For Complements](https://github.com/yoshimasaogawa/WillowProject/tree/master/AuctionForComplements)
 * [Public Goods Game](https://github.com/yoshimasaogawa/WillowProject/tree/master/PublicGoodsGame)
+* [Binary Option](https://github.com/yoshimasaogawa/WillowProject/tree/master/BinaryOption)
 * [Wifunc](https://github.com/yoshimasaogawa/WillowProject/tree/master/Wifunc)
 
 Double Auction
@@ -20,9 +21,8 @@ Auctions For Complements
 
 Public Goods Game
 -------
-サンプルコードが仕上がりました。  
-後々コード上にコメントも残そうと思います。wifuncで定めた関数も多用してコード簡略化につとめました。  
-一目見たらwillowの使い方がわかるコードって結構難しい...
+サンプルコードが仕上がりました。コード上には山岸がコメントを残してくれました。  
+何か改善すべき部分がありましたらプルリクエスト(?)してもらえれば嬉しいです。。
 
 Wifunc
 -------
@@ -34,5 +34,4 @@ wifunc.pycという付属でついてくるファイルいついてはよく分�
 次回に向けて
 -------
 ・エージェントをコード内に組み込む。  
-・pandasでデータ分析プログラムを作る。  
-・Willowの使い方が一目で分かる模範コードを書く。
+・pandasでデータ分析プログラムを作る。(まず最低限の統計のお勉強を) 
