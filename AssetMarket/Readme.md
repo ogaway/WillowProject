@@ -4,10 +4,8 @@
 資産の価格バブル
 -----
 投資家は本来の資産価格が反映された価格で資産の売買を行われているのだろうか？  
-Vernon L. Smith; Gerry L. Suchanek; Arlington W. Williamsは実験を実施して、
-資産がもたらす期待収益が明らかな場合に被験者がどのように資産の取引を行うかについて分析を行った。
-(http://www.jstor.org/stable/1911361?seq=1#page_scan_tab_contents)
-assetmarket.pyでは彼らの実験を再現してみる。
+今回は資産がもたらす期待収益が明らかな場合に被験者がどのように資産の取引を行うかについて分析する。
+assetmarket.pyでは参考文献にある実験を再現する。
 
 参考文献
 -----
