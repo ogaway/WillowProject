@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 
 def session(me):
-    # 為替レートの推移を何回するか変更可能
+    # 一期を何秒にするか変更可能
     ts = 50
     if me == 0:
         add("<h1>Asset Market : Monitor</h1>")
@@ -35,15 +35,14 @@ def session(me):
         sellprice = 1000000
         buynum = 0
         sellnum = 0
-        time = 10
         dividend_list = [0, 8, 28, 60]
         def timer():
             put({"id": "d", "tag": 1})
         def ping():
             put({"id": "d", "tag": 2})
         for i in range(15):
-            background(ping, time)
-            for j in range(time):
+            background(ping, ts)
+            for j in range(ts):
                 background(timer, j)
             while True:
                 # 注文を受け取る(d)
@@ -114,11 +113,10 @@ def session(me):
         sellprice = 1000000
         buynum = 0
         sellnum = 0
-        time = 10
         let(capital, "#capital")
         let(bond, "#bond")
         for i in range(15):
-            counter = time
+            counter = ts
             let(counter, "#time")
             let(i+1, "#number")
             while True:
