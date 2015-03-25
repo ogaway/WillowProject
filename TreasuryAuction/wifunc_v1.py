@@ -35,7 +35,7 @@ def wiput(a, b):
         put(b)
 
 def witake(a, b):
-    for i in range(b):
+    for i in range(a):
         take(b)
 
 def ready():
