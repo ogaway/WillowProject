@@ -17,6 +17,22 @@ def numset_end(plnum):
     add(plnum, "#num")
 
 
+def goodsset():
+    add("<p id='goodsset'>財の数を入力してください。<br />"
+    "<input id='goodsnum' type='text' />"
+    "<input id='go' type='submit'></p>")
+
+
+def get_goods():
+    return int(peek("#goodsnum"))
+
+
+def goodsset_end(goodsnum):
+    hide("#goodsset")
+    add("<p id='goodsset_end'>財の数：<span id='goods'></span>個</p>")
+    add(goodsnum, "#goods")
+
+
 def table_css():
     add("<style type='text/css'>table {border-collapse: collapse;}</style>")
     add("<style type='text/css'>td {border: solid 1px;padding: 0.5em;}</style>")
