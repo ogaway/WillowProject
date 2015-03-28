@@ -60,10 +60,14 @@ def ready():
     "<input id='go' type='submit'></p>")
 
 
-def start():
-    add("<p id='start'>被験者の準備が整いました。<br />"
+def start(a):
+    add("<p id='start%s'>被験者の準備が整いました。<br />"
     "ボタンを押すと実験が始まります。<br />"
-    "<input id='go' type='submit'></p>")
+    "<input id='go' type='submit'></p>" % a)
+
+
+def starthide(a):
+    hide("#start%s" % a)
 
 
 def DApriceset(a):
