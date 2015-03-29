@@ -4,7 +4,7 @@ from willow.willow import *
 def numset():
     add("<p id='numset'>参加人数を入力してください。<br />"
     "<input id='plnum' type='text' />"
-    "<input id='go' type='submit'></p>")
+    "<input id='go' type='submit'></p>", "#main")
 
 
 def get_num():
@@ -13,14 +13,14 @@ def get_num():
 
 def numset_end(plnum):
     hide("#numset")
-    add("<p id='numset_end'>実験人数：<span id='num'></span>人</p>")
+    add("<p id='numset_end'>実験人数：<span id='num'></span>人</p>", "#main")
     add(plnum, "#num")
 
 
 def goodsset():
     add("<p id='goodsset'>財の数を入力してください。<br />"
     "<input id='goodsnum' type='text' />"
-    "<input id='go' type='submit'></p>")
+    "<input id='go' type='submit'></p>", "#main")
 
 
 def get_goods():
@@ -29,7 +29,7 @@ def get_goods():
 
 def goodsset_end(goodsnum):
     hide("#goodsset")
-    add("<p id='goodsset_end'>財の数：<span id='goods'></span>個</p>")
+    add("<p id='goodsset_end'>財の数：<span id='goods'></span>個</p>", "#main")
     add(goodsnum, "#goods")
 
 
@@ -39,7 +39,7 @@ def table_css():
 
 
 def wait(a, b=0):
-    add("<p id='wait%s'>しばらくお待ちください。</p>" % str(a+b*10000))
+    add("<p id='wait%s'>しばらくお待ちください。</p>" % str(a+b*10000), "#main")
 
 
 def waithide(a, b=0):
@@ -57,13 +57,13 @@ def witake(a, b):
 def ready():
     add("<p id='ready'>実験の内容について理解し、"
     "準備が整いましたらボタンを押してください。<br />"
-    "<input id='go' type='submit'></p>")
+    "<input id='go' type='submit'></p>", "#instruction")
 
 
 def start(a):
     add("<p id='start%s'>被験者の準備が整いました。<br />"
     "ボタンを押すと実験が始まります。<br />"
-    "<input id='go' type='submit'></p>" % a)
+    "<input id='go' type='submit'></p>" % a, "#main")
 
 
 def starthide(a):
