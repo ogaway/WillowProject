@@ -6,27 +6,38 @@ Treasury Auction
 ディレクトリ構造
 -----
 TreasuryAuction  
-  |--willow  
-  |     |--willow.py  
-  |     |  ...  
-  |  
-  |--log  
-  |--data  
-  |--web  
-  |     |--css  
-  |     |     |--base.css  
-  |     |--img  
-  |     |     |--favicon.ico  
-  |     |     |--oyamalogo.png  
-  |     |--index.html  
-  |     |--TAsubject_DESC.html  
-  |     |--TAsubject_UNI.html  
-  |     |--TAsubject_SPAN.html
-  |--TreasuryAuction.py  
-  |--TAdataset.py  
-  |--wifunc_v2.py  
-  |--wifunc_TA.py  
-  |--Readme.md  
+├── Readme.md  
+├── TAdataset.py  
+├── TreasuryAuction.py  
+├── data  
+├── log  
+├── web  
+│   ├── TAsubject_DESC.html  
+│   ├── TAsubject_SPAN.html  
+│   ├── TAsubject_UNI.html  
+│   ├── css  
+│   │   └── base.css  
+│   ├── img  
+│   │   ├── favicon.ico  
+│   │   └── oyamalogo.png  
+│   └── index.html  
+├── willow  
+│   ├── __init__.py  
+│   ├── __init__.pyc  
+│   ├── bb.py  
+│   ├── branch.py  
+│   ├── favicon.ico  
+│   ├── jquery.js  
+│   ├── json.js  
+│   ├── mime.txt  
+│   ├── pool.py  
+│   ├── willow.css  
+│   ├── willow.html  
+│   ├── willow.js  
+│   ├── willow.py  
+│   └── willow.pyc  
+├── wifunc_TA.py  
+└── wifunc_v2.py  
 
 ・logフォルダ、dataフォルダは中身は空で構いません。(ここにデータが生成されるのでフォルダは作っておいてください。)  
 
