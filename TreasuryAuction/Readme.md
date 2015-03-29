@@ -7,19 +7,26 @@ Treasury Auction
 -----
 TreasuryAuction  
   |--willow  
-  |   |--willow.py  
-  |   |  ...  
-  |   |--__init__.py  
+  |     |--willow.py  
+  |     |  ...  
+  |  
   |--log  
   |--data  
+  |--web  
+  |     |--css  
+  |     |     |--base.css  
+  |     |--img  
+  |     |     |--favicon.ico  
+  |     |     |--oyamalogo.png  
+  |     |--index.html  
+  |     |--TAsubject_DESC.html  
+  |     |--TAsubject_UNI.html  
+  |     |--TAsubject_SPAN.html
   |--TreasuryAuction.py  
   |--TAdataset.py  
-  |--TAmonitor.html  
-  |--TAsubject_DESC.html  
-  |--TAsubject_UNI.html  
-  |--TAsubject_SPAN.html  
   |--wifunc_v2.py  
   |--wifunc_TA.py  
+  |--Readme.md  
 
 ・logフォルダ、dataフォルダは中身は空で構いません。(ここにデータが生成されるのでフォルダは作っておいてください。)  
 
