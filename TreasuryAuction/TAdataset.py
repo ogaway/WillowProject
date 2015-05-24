@@ -19,8 +19,8 @@ you can change the variables
 """
 
 # You can change the variables
-plnum = 2
-Round = 2
+plnum = 9
+Round =  10
 
 f1 = open('data/data1.csv', 'ab')
 f2 = open('data/data2.csv', 'ab')

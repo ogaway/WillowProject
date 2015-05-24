@@ -28,8 +28,8 @@ def session(me):
         average winning bid are fully paid.
     ---
     """
-    auction = 0
-    Round = 2
+    auction = 1
+    Round = 10
 
     if me == 0:
         add(open("web/index.html"))
@@ -56,18 +56,19 @@ def session(me):
         take({"client": me})
         starthide(1)
         add("実験を開始します。<br />", "#main")
+        log("PlayerNum:%s" % plnum, "GoodsNum:%s" % goodsnum)
 
         # Start !!
         # Open the Datasets
         if auction == 0:
             f = open('data/data1.csv', 'rb')
-            log("Round", "DISC")
+            log("Value", "DISC")
         elif auction == 1:
             f = open('data/data2.csv', 'rb')
-            log("Round", "UNI")
+            log("Value", "UNI")
         elif auction == 2:
             f = open('data/data3.csv', 'rb')
-            log("Round", "SPAN")
+            log("Value", "SPAN")
         dataReader = csv.reader(f)
         datasets = []
         revenue = 0
@@ -135,7 +136,7 @@ def session(me):
             averagebid = averagebid / goodsnum
             averageprice = averageprice /goodsnum
             add("平均勝ち入札価格は%s円、平均落札価格は%s円でした。<br />" % (averagebid, averageprice), "#main")
-            log(time, averageprice)
+            log("Value(%s)" % int(data[0]), averageprice*goodsnum)
             revenue += averageprice
             wiput(plnum, {"tag": "f", "ave": averagebid})
             # Next Round(g)
@@ -146,7 +147,6 @@ def session(me):
                 take({"client": me})
                 starthide(time+2)
             else:
-                log("Revenue", revenue)
                 result = []
                 # Take Profit(g)
                 for i in range(plnum):
