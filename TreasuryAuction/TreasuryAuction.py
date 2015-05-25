@@ -200,6 +200,7 @@ def session(me):
         # Take Value and Estimate(c)
         profit = 0
         for time in range(Round):
+            counter = 0
             msg = take({"tag": "c"})
             if time == 0:
                 waithide(2)
@@ -218,13 +219,21 @@ def session(me):
             add(estimate, "#estimate%s" % time)
             let("入札価格記入欄に価格を入力して送信してください。", "#info")
             while True:
+                bid(time, counter)
                 take({"client": me})
-                bid1 = int(peek("#bid1%s" % time))
-                bid2 = int(peek("#bid2%s" % time))
-                if (bid1 >= 500) and (bid1 <= 6000) and (bid2 >= 500 or bid2 == 0) and (bid2 <= 6000):
-                    let("", "#info")
-                    break
+                bid1 = peek("#%sbid1%s" % (time, counter))
+                bid2 = peek("#%sbid2%s" % (time, counter))
+                if bid1.isdigit() and bid2.isdigit():
+                    bid1 = int(bid1)
+                    bid2 = int(bid2)
+                    if (bid1 >= 500) and (bid1 <= 6000) and (bid2 >= 500 or bid2 == 0) and (bid2 <= 6000):
+                        let("", "#info")
+                        break
+                    else:
+                        counter += 1
+                        let("<font color='red'>入札価格は注意書きに従った金額を入力してください。</font>", "#info")
                 else:
+                    counter += 1
                     let("<font color='red'>入札価格は注意書きに従った金額を入力してください。</font>", "#info")
             hide("#offer%s" % time)
             waitinfo(2*(time+1) - 1)
